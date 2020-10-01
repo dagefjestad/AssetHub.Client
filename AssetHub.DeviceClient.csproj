@@ -13,7 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Devices.Client" Version="1.29.0-preview-004" />
     <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Client" Version="1.5.2" />
-    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Transport.Mqtt" Version="1.2.2" />
+    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Transport.Mqtt" Version="1.13.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
