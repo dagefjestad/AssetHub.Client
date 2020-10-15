@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AssetHub.DeviceClient
+﻿namespace AssetHub.DeviceClient
 {
-    class FlexAsset
+    public class FlexAsset
     {
         public string scopeId { get; set; }
         public string deviceId { get; set; }

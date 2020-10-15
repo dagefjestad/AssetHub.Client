@@ -20,4 +20,13 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="assetreadings.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="device.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
