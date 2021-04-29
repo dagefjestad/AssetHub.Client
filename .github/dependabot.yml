@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Microsoft.Azure.Devices.Provisioning.Transport.Mqtt
+    versions:
+    - 1.14.0
+    - 1.15.0
+  - dependency-name: Microsoft.Azure.Devices.Provisioning.Client
+    versions:
+    - 1.16.3
+    - 1.17.0
+  - dependency-name: Microsoft.Azure.Devices.Client
+    versions:
+    - 1.34.0
+    - 1.35.0
+    - 1.36.0
+    - 1.37.0
+  - dependency-name: Microsoft.CodeAnalysis.FxCopAnalyzers
+    versions:
+    - 3.3.2
