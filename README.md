@@ -10,4 +10,4 @@ Before you can inject messages from a device, you need to provision the device. 
 
 Before you can run the example you need to create the device (rest service) to get key and scope to use in the provisiong process.  
 
-The code is provides as-is. 
+*The code is provides as-is.* 
