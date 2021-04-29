@@ -1,0 +1,7 @@
+﻿ {
+    "scopeId": "*******",
+    "deviceid": "1234-9999-9999-4444-2222",
+    "primarykey": "***********",
+    "asignedHub": "*********.azure-devices.net",
+    "provisioned": false
+  }  
